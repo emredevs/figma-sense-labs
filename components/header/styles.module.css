@@ -1,0 +1,37 @@
+.headerContainer {
+  width: 1134px;
+  margin: 48px auto;
+}
+.headerContainer ul {
+  display: flex;
+  width: 1134px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--White, #fff);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.headerContainer ul li {
+  cursor: pointer;
+}
+.headerContainer ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerContainer ul li a sub {
+  margin-top: -10px;
+  color: var(--Success, #68F899);
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+.headerContainer ul li > *:focus {
+  border-bottom: 2px solid #1cefb4;
+}/*# sourceMappingURL=styles.module.css.map */
