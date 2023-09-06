@@ -1,1 +1,81 @@
-/*# sourceMappingURL=stles.module.css.map */
+.creatorContainer {
+  width: 75%;
+  margin: 20px auto;
+}
+.creatorContainer .creatorBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 30px;
+}
+.creatorContainer .creatorBox .creatorCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 261px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--dark-border, rgba(255, 255, 255, 0.1));
+  background: var(--dark-1, #1E1E1E);
+}
+.creatorContainer .creatorBox .creatorCard h3 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.creatorContainer .creatorBox .creatorCard h3 span {
+  color: var(--Logo-4, #A27DF9);
+  /* H9 (Sub - Header) */
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.creatorContainer .creatorBox .creatorCard span {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+.creatorContainer .creatorBox .creatorCard span span {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.creatorContainer .creatorBox .creatorCard .creatorBtnBox {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.creatorContainer .creatorBox .creatorCard .creatorBtnBox button {
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  display: flex;
+  width: 113px;
+  height: 40px;
+  padding: 0 40px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Logo-4, #A27DF9);
+}
+.creatorContainer .creatorBox .creatorCard .creatorBtnBox div {
+  display: flex;
+  height: 26px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=stles.module.css.map */

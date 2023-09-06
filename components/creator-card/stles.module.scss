@@ -1,0 +1,97 @@
+.creatorContainer {
+    width: 75%;
+    margin: 20px auto;
+
+    .creatorBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 30px;
+
+        .creatorCard {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 261px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid var(--dark-border, rgba(255, 255, 255, 0.10));
+            background: var(--dark-1, #1E1E1E);
+
+            // img {}
+
+            h3 {
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                span {
+                    color: var(--Logo-4, #A27DF9);
+                    /* H9 (Sub - Header) */
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            span {
+                color: rgba(255, 255, 255, 0.60);
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 21px;
+
+
+                span {
+                    color: rgba(255, 255, 255, 0.60);
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+
+            .creatorBtnBox {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                button {
+                    color: white;
+                    font-weight: bold;
+                    font-size: medium;
+
+                    display: flex;
+                    width: 113px;
+                    height: 40px;
+                    padding: 0 40px;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 10px;
+                    background: var(--Logo-4, #A27DF9);
+                }
+
+                div {
+                    display: flex;
+                    height: 26px;
+                    padding: 0px 10px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0.50);
+
+
+                }
+            }
+
+        }
+    }
+}
