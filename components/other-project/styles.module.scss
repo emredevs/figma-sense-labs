@@ -1,0 +1,128 @@
+.otherProjectContainer {
+    margin: 0 auto;
+    background: var(--dark-1, #0F0F0F);
+    width: 75%;
+
+    .OtherProjectBoxs {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+
+        .leftBox {
+
+            div {
+                margin-top: 30px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 15px;
+
+                input {
+                    width: 299px;
+                    height: 45px;
+                    padding: 0 20px;
+                    border-radius: 10px;
+                    background-color: #3d3d3d;
+                    border: 2px solid var(--dark-border, rgba(255, 255, 255, 0.10));
+                }
+
+                div {
+
+                    margin-top: 0px;
+                    display: flex;
+                    height: 45px;
+                    padding: 0px 10px;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 10px;
+                    background: var(--Logo-4, #A27DF9);
+
+                    img {
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
+            .leftBoxCard {
+                width: 358px;
+                height: 167px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                border: 1px solid var(--dark-border, rgba(255, 255, 255, 0.10));
+                background: var(--dark-1, #1E1E1E);
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                padding-top: 20px;
+
+                .leftBoxCardInfo {
+                    display: flex;
+                    flex-direction: column;
+
+                    align-items: flex-start;
+                    gap: 8px;
+                    background: var(--dark-1, #1E1E1E);
+
+                    span {
+                        color: rgba(255, 255, 255, 0.60);
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+
+                    }
+
+                    span:nth-child(3) {
+                        color: var(--Logo-4, #A27DF9);
+                        /* H9 (Sub - Header) */
+                        font-family: Poppins;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+
+                        span {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 26px;
+                            padding: 0px 10px;
+                            border-radius: 5px;
+                            border: 1px solid rgba(255, 255, 255, 0.50);
+
+
+                        }
+                    }
+
+                    button {
+                        cursor: pointer;
+                        width: 120px;
+                        padding: 8px 14px;
+                        border-radius: 10px;
+                        background: var(--Logo-4, #A27DF9);
+                        color: white;
+                        font-weight: bold;
+                        font-size: medium;
+                    }
+
+                }
+            }
+        }
+
+        .leftCenter {}
+
+        .leftRight {}
+    }
+
+
+
+
+}
