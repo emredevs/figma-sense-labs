@@ -37,7 +37,7 @@ export default function OtherProject() {
                 18 in stock{" "}
                 <span>
                   1.5{" "}
-                  <Image src={"/eth.png"} alt="eth" width={16} height={16} />
+                  <Image src={"/Eth.png"} alt="eth" width={16} height={16} />
                 </span>
               </span>
               <button>Mint</button>
@@ -62,7 +62,7 @@ export default function OtherProject() {
                 18 in stock{" "}
                 <span>
                   1.5{" "}
-                  <Image src={"/eth.png"} alt="eth" width={16} height={16} />
+                  <Image src={"/Eth.png"} alt="eth" width={16} height={16} />
                 </span>
               </span>
               <button>Mint</button>
@@ -87,7 +87,7 @@ export default function OtherProject() {
                 18 in stock{" "}
                 <span>
                   1.5{" "}
-                  <Image src={"/eth.png"} alt="eth" width={16} height={16} />
+                  <Image src={"/Eth.png"} alt="eth" width={16} height={16} />
                 </span>
               </span>
               <button>Mint</button>
