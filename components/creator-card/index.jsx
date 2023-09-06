@@ -22,7 +22,7 @@ export default function CreatorCard() {
           <div className={styles.creatorBtnBox}>
             <button>Mint</button>
             <div>
-              1.5 <Image src={"/eth.png"} alt="eht" width={16} height={16} />
+              1.5 <Image src={"/Eth.png"} alt="eht" width={16} height={16} />
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function CreatorCard() {
           <div className={styles.creatorBtnBox}>
             <button>Mint</button>
             <div>
-              1.5 <Image src={"/eth.png"} alt="eht" width={16} height={16} />
+              1.5 <Image src={"/Eth.png"} alt="eht" width={16} height={16} />
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function CreatorCard() {
           <div className={styles.creatorBtnBox}>
             <button>Mint</button>
             <div>
-              1.5 <Image src={"/eth.png"} alt="eht" width={16} height={16} />
+              1.5 <Image src={"/Eth.png"} alt="eht" width={16} height={16} />
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function CreatorCard() {
           <div className={styles.creatorBtnBox}>
             <button>Mint</button>
             <div>
-              1.5 <Image src={"/eth.png"} alt="eht" width={16} height={16} />
+              1.5 <Image src={"/Eth.png"} alt="eht" width={16} height={16} />
             </div>
           </div>
         </div>
