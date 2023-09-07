@@ -95,8 +95,19 @@ export default function OtherProject() {
               </div>
             </div>
           </div>
-          <div className={styles.leftCenter}>center box</div>
-          <div className={styles.leftRight}>right box</div>
+          <div className={styles.centerBox}>
+            <div>as</div>
+            <div>sa</div>
+          </div>
+          <div className={styles.rightBox}>
+            <h1>Other Creators You May Like</h1>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
