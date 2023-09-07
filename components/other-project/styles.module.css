@@ -2,6 +2,7 @@
   margin: 0 auto;
   background: var(--dark-1, #0F0F0F);
   width: 75%;
+  padding: 20px 0px;
 }
 .otherProjectContainer .OtherProjectBoxs {
   display: flex;
